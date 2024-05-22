@@ -1,0 +1,22 @@
+.dash-main-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.left-nav {
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-top-right-radius: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-icon {
+  object-fit: contain;
+  width: 20px;
+  margin: 20px 0;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+/* Custom styles for start and end dates */
+.date .start-date span {
+    background-color: #0A66C2 !important;
+    color: white !important;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date .end-date span {
+    background-color: #0A66C2 !important;
+    color: white !important;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rdrDayToday:not(.rdrDayPassive) .rdrStartEdge~.rdrDayNumber span::after,
+.rdrDayToday .rdrDayNumber span::after,
+.rdrDayToday:not(.rdrDayPassive) .rdrEndEdge~.rdrDayNumber span::after {
+    background: none;
+}
+
+.date .in-range span {
+    color: black !important;
+    padding: 10px;
+    /* Black font color for dates within the range */
+}
+
+
+.rdrStartEdge {
+    left: 15px;
+}
+
+.rdrEndEdge {
+    right: 15px;
+}

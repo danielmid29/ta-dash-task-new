@@ -1,0 +1,49 @@
+.candidate-table {
+    padding: 0 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11px;
+    color: #3E3E3E;
+    margin-bottom: 15px;
+}
+
+th {
+    font-weight: 500;
+    padding: 10px 0;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 15px;
+}
+
+td {
+
+    text-align: center;
+    border-bottom: 1px solid #09131638;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    letter-spacing: .5px;
+}
+
+.data-td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-status {
+    background-color: #FFF9EC;
+    color: #F5C961;
+    padding: 5px 15px;
+    width: fit-content;
+    align-self: center;
+    border-radius: 2px;
+}
+
+.pj-eye-icon {
+    object-fit: contain;
+    width: 15px;
+    cursor: pointer;
+}
